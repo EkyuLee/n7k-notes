@@ -11,50 +11,45 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="노트">
-<meta name="theme-color" content="#f5f7fa" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#12161d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#eef6ff">
 <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAD1klEQVR4nO3dL3IUQRiH4Q7FBTgBWByKOCwSLFXRuFwhgivgsKEKi8XiQMVhcwOugFhILSS/+bOzpLu6n0dQqUoKpmZevpndbpaTx68uC9zlQe0DoF3iIBIHkTiIxEEkDiJxEImDSBxE4iASB5E4iMRBJA4icRCJg0gcROIgEgeROIjEQSQOInEQiYNIHETiIBIHkTiIxEH0sPYB/Hb9+az2IbTlyeuPtQ+hnFT/CAZZTKibSOXbijKm1T0/NeNQxhIVz1K1OJSxXK1zVScOZaxV5Yx5KUtUIQ5j4zD3f95MDiJxELXyDula316+2H1x+uVr3SPpmMlBJA4icRCJg0gcROIgEgeROIjEQSQOInEQiYNIHETiIGp6yf77j59H+ZnGPX/6qPYh3M3kIBIHUdO3lYl5+23Bz7CRyUEkDiJxEImDSBxE4jiOZxcd/htPcRzBroz++hDHVvtNdNaHODa5XUNPfYjj+LrpQxyHm4igjz7EcaDpy3/1rv6niG7X9MJbs/s53n46n/juhzfvVx1Vs2uHJsdqs2Xc25H8b+JYZ5wySuO3ldb2c8w+ZjZ7gziMybHUbBl9PITuE8dx9FdGEcdCI7xwvU0c88Yso4hj1rBlFHFMG7mMIo4Jg5dR+o5jy+pXHytnG3Ubx5bdWQO+pXGnPuP4r7uzBimjdBnHxt1ZHjVu9BZHurQL+1DGvqYX3tbu55heMn12cTa9anrcXRrLNbtc19XkmF0xn7j8Q63FL9RVHOXQPpRxp6ZvK4ft57h693H60eHtp/P9p4fRdmks19vk2Jl9crwJwlsaE/qMo6zpY8tv0rdu4yib+xi8jNJ3HGXDBVZG6T6OctBlVsZO/3GUlRdbGTeGiKMsvuTK2DdKHMWFX2+gOMpcH+r5x1hxlL8LSF+zM1wc5U8Ht3/lHyPGUcyMZZpeeGv28zmOq9mFvUEnB0uIg6jp20prn88xGpODSBxE4iASB5E4iMRBJA4icRCJg0gcROIgEgdR0wtv9nPUZXIQiYOo6duK/Rx1mRxE4iASB5E4iMRBJA4icRCJg0gcROIgEgeROIiaXnizn6Muk4NIHERN31bs56jL5CASB1HTt5UJp1++1j6E/pkcROIgqhDHk9c+MfgQ93/eTA6iOnEYHmtVOWPVJoc+lqt1rmreVvSxRMWzVPmZQx/T6p6fk8evLiv+8TeuP8///9BDaeGvTStx0CAvZYnEQSQOInEQiYNIHETiIBIHkTiIxEEkDiJxEImDSBxE4iASB5E4iMRBJA4icRCJg0gcROIgEgeROIjEQSQOInEQ/QJZ0vU1G2qjSgAAAABJRU5ErkJggg==">
-<!--HEAD-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <title>노트</title>
 <style>
 /* Mobile-first, iPhone 11 Pro (375×812). Thumb zone: bottom tab bar. One column, 44px+ targets, 16px inputs (no iOS zoom). */
 :root{
-  --bg:#f5f7fa; --card:#ffffff; --ink:#18202c; --sub:#5b6575; --line:#e2e7ef; --soft:#eef2f7;
-  --accent:#1f4fa3; --accent-soft:#e4ecfa; --done:#2f7d5b; --ai:#7a3fb0; --ai-soft:#f1e8fa;
-  --a1:#1f4fa3; --a2:#2f7d5b; --a3:#b0681a; --a4:#5b6676; --a5:#b23a48; --a6:#7a6a2e; --a7:#7a3fb0;
-  --f:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","IBM Plex Sans KR","Malgun Gothic",system-ui,sans-serif;
+  /* Bright, single light theme by choice: sky-blue sheet, mint for done, sunny yellow highlights */
+  --bg:#f3f8ff; --card:#ffffff; --ink:#1d2a44; --sub:#62708a; --line:#e3ebf7; --soft:#edf3fd;
+  --accent:#3d6df2; --accent-soft:#e6eeff; --done:#1fb68a; --ai:#a35cf0; --ai-soft:#f4ebff; --sun:#ffc94a; --sun-soft:#fff6dc; --pink:#ff7aa2;
+  --a1:#3d6df2; --a2:#1fb68a; --a3:#f29a2e; --a4:#7b8aa6; --a5:#f0607a; --a6:#c49a1a; --a7:#a35cf0;
+  --f:"Pretendard Variable","Pretendard","IBM Plex Sans KR",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",system-ui,sans-serif;
+  --fd:"Jua","Pretendard Variable","IBM Plex Sans KR",sans-serif;
   --mono:ui-monospace,"SF Mono",Menlo,monospace;
-  --tabh:58px;
+  --tabh:58px; color-scheme:light;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#12161d; --card:#1a2029; --ink:#e8edf4; --sub:#a1acbc; --line:#2a3240; --soft:#202733;
-  --accent:#8db0f0; --accent-soft:#22314d; --done:#6cc39c; --ai:#c39af0; --ai-soft:#2c2240;
-  --a1:#8db0f0; --a2:#6cc39c; --a3:#e3a45a; --a4:#a3adbb; --a5:#ec8592; --a6:#d2be80; --a7:#c39af0; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#12161d; --card:#1a2029; --ink:#e8edf4; --sub:#a1acbc; --line:#2a3240; --soft:#202733;
-  --accent:#8db0f0; --accent-soft:#22314d; --done:#6cc39c; --ai:#c39af0; --ai-soft:#2c2240;
-  --a1:#8db0f0; --a2:#6cc39c; --a3:#e3a45a; --a4:#a3adbb; --a5:#ec8592; --a6:#d2be80; --a7:#c39af0; color-scheme:dark}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f);font-size:16px;line-height:1.6;
+body{margin:0;background:var(--bg) linear-gradient(180deg,#e3efff 0,#f3f8ff 260px) no-repeat;color:var(--ink);font-family:var(--f);font-size:16px;line-height:1.6;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
   padding-top:env(safe-area-inset-top,0px);padding-bottom:calc(var(--tabh) + env(safe-area-inset-bottom,0px) + 16px)}
 .wrap{max-width:560px;margin:0 auto}
 header{padding-block:14px 6px}
-header .t{font-size:13px;color:var(--sub);letter-spacing:.02em}
-h1{font-size:24px;line-height:1.3;margin:2px 0 0;font-weight:800;text-wrap:balance}
-h2{font-size:18px;margin:22px 0 10px;font-weight:700}
+header .t{font-size:13px;color:var(--accent);font-weight:600;letter-spacing:.01em}
+h1{font-family:var(--fd);font-size:28px;line-height:1.25;margin:2px 0 0;font-weight:400;letter-spacing:-.01em;text-wrap:balance}
+h2{font-family:var(--fd);font-size:20px;margin:24px 0 10px;font-weight:400}
 p{margin:0 0 10px}
 .sub{color:var(--sub);font-size:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px;box-shadow:0 2px 10px rgba(61,109,242,.06)}
 .stack{display:grid;gap:10px}
-.prog{height:8px;background:var(--soft);border-radius:4px;overflow:hidden}
-.prog i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s}
+.prog{height:10px;background:var(--soft);border-radius:6px;overflow:hidden}
+.prog i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#6fa8ff);width:0;transition:width .25s}
 .big{font-size:28px;font-weight:800;font-family:var(--mono);font-variant-numeric:tabular-nums;line-height:1.1}
 .row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 /* check rows */
-.list{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.list{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 2px 10px rgba(61,109,242,.06)}
 .list li{border-bottom:1px solid var(--line)}
 .list li:last-child{border-bottom:0}
 .chk{display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start;padding:12px 14px;min-height:52px;cursor:pointer}
@@ -73,8 +68,6 @@ li.done .q{color:var(--sub);text-decoration:line-through;text-decoration-color:v
 .chips::-webkit-scrollbar{display:none}
 .chip{flex:0 0 auto;font:600 14px var(--f);color:var(--sub);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:0 14px;height:36px;cursor:pointer}
 .chip[aria-pressed="true"]{color:#fff;background:var(--accent);border-color:var(--accent)}
-:root:not([data-theme="light"]) .chip[aria-pressed="true"]{color:var(--bg)}
-@media (prefers-color-scheme: light){.chip[aria-pressed="true"]{color:#fff}}
 .search{width:100%;font:16px var(--f);color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:0 14px;height:44px}
 .search:focus{outline:2px solid var(--accent);outline-offset:0}
 .seg{display:grid;grid-template-columns:repeat(3,1fr);background:var(--soft);border-radius:10px;padding:3px;gap:3px;margin:8px 0}
@@ -88,7 +81,7 @@ li.done .q{color:var(--sub);text-decoration:line-through;text-decoration-color:v
 .topic .n{font-family:var(--mono);font-weight:700;color:var(--accent);font-size:15px}
 .topic .r{display:block;font-size:12px;color:var(--sub);font-family:var(--mono)}
 /* guide accordions */
-details{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+details{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 2px 10px rgba(61,109,242,.06)}
 details+details{margin-top:10px}
 summary{list-style:none;padding:14px 16px;min-height:52px;font-weight:700;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
 summary::-webkit-details-marker{display:none}
@@ -109,8 +102,8 @@ a{color:var(--accent)}
 .links a span{color:var(--sub);font-size:13px}
 .dot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;vertical-align:1px}
 /* bottom tab bar */
-nav.tab{position:fixed;left:0;right:0;bottom:0;z-index:20;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);
-  border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);
+nav.tab{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);
+  border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);
   padding:0 env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
 nav.tab button{height:var(--tabh);background:none;border:0;font:600 11px var(--f);color:var(--sub);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer}
 nav.tab button svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
@@ -118,7 +111,7 @@ nav.tab button[aria-selected="true"]{color:var(--accent)}
 nav.tab button:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}
 .num{font-family:var(--mono);font-weight:700;font-variant-numeric:tabular-nums}
 .row+.prog,.row ~ .prog{margin-top:6px}
-.qc{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.qc{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 2px 10px rgba(61,109,242,.06)}
 .qc.ok{border-color:color-mix(in srgb,var(--done) 45%,var(--line))}
 .qc.again{border-color:color-mix(in srgb,var(--a3) 55%,var(--line))}
 .qc .qh{padding:14px 16px 4px}
@@ -140,6 +133,23 @@ nav.tab button:focus-visible{outline:2px solid var(--accent);outline-offset:-4px
 .pat{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--accent-soft);color:var(--ink);border-radius:10px;padding:6px 6px 6px 12px;font-size:14px;margin:4px 0 6px}
 .pat span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pat button{flex:0 0 auto;height:34px;padding:0 12px;border:0;border-radius:8px;background:var(--card);color:var(--accent);font:600 14px var(--f);cursor:pointer}
+.sunny{background:var(--sun-soft);border-color:#ffe7a3}
+.hello{display:flex;align-items:center;gap:12px}
+.hello .em{flex:0 0 auto;width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--sun),#ffa94a);display:grid;place-content:center;color:#fff;font-family:var(--fd);font-size:20px}
+.quote{font-family:var(--fd);font-size:20px;line-height:1.45;color:var(--ink)}
+.tip{display:grid;grid-template-columns:36px 1fr;gap:10px;align-items:start;padding:12px 0;border-bottom:1px dashed var(--line)}
+.tip:last-child{border-bottom:0}
+.tip .ic{width:36px;height:36px;border-radius:12px;display:grid;place-content:center;font-family:var(--fd);font-size:17px;color:#fff}
+.tip b{display:block;font-size:16px;margin-bottom:2px}
+.tip p{margin:0;color:var(--sub);font-size:15px;word-break:keep-all}
+.go-list a{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:56px;padding:10px 14px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.go-list a:last-child{border-bottom:0}
+.go-list a small{display:block;color:var(--sub);font-size:13px}
+.go-list a .arr{flex:0 0 auto;color:var(--accent);font-weight:700}
+.steps{counter-reset:st;list-style:none;margin:0;padding:0}
+.steps li{counter-increment:st;display:grid;grid-template-columns:30px 1fr;gap:10px;padding:10px 0;border-bottom:1px dashed var(--line);font-size:15px;word-break:keep-all}
+.steps li:last-child{border-bottom:0}
+.steps li::before{content:counter(st);width:26px;height:26px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-weight:700;display:grid;place-content:center;font-size:13px}
 .hint{font-size:13px;color:var(--sub);background:var(--soft);border-radius:10px;padding:10px 12px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -149,13 +159,13 @@ nav.tab button:focus-visible{outline:2px solid var(--accent);outline-offset:-4px
 
 <!-- 홈 -->
 <section id="v-home" data-view>
-  <header><div class="t">정보관리기술사 · 제141회 대비</div><h1>오늘도 한 칸씩</h1></header>
+  <header class="hello"><span class="em">합</span><div><div class="t">정보관리기술사 · 제141회 대비</div><h1>오늘도 한 칸씩, 화이팅!</h1></div></header>
   <div class="card stack" style="margin-top:10px;gap:12px">
     <div><div class="row"><span>입문 8주</span><span class="num" id="sBeg">0/14</span></div><div class="prog"><i id="pBeg"></i></div></div>
     <div><div class="row"><span>암기 카드 (알아요)</span><span class="num" id="sC">0/35</span></div><div class="prog"><i id="pC"></i></div></div>
     <div><div class="row"><span>기출 문제 공부</span><span class="num" id="sQ">0/464</span></div><div class="prog"><i id="pQ"></i></div></div>
   </div>
-  <div class="card" style="margin-top:10px" id="nextCard">
+  <div class="card sunny" style="margin-top:10px" id="nextCard">
     <div class="sub">다음 할 일</div>
     <div id="nextText" style="font-weight:700;margin-top:2px"></div>
   </div>
@@ -199,6 +209,65 @@ nav.tab button:focus-visible{outline:2px solid var(--accent);outline-offset:-4px
   <div class="chips" id="groupChips" role="group" aria-label="분야"></div>
   <div class="count" id="cCount"></div>
   <div id="cardList" class="stack"></div>
+</section>
+
+<!-- 팁 -->
+<section id="v-tip" data-view hidden>
+  <header><div class="t">지치지 않고 끝까지 가는 법</div><h1>마음가짐 &amp; 공부 팁</h1></header>
+  <div class="card sunny" style="margin-top:12px"><div class="sub" style="color:#9a7300">오늘의 한 줄</div><div class="quote" id="quote"></div><button class="more" id="nextQuote" style="margin-top:10px;background:#fff">다른 문장 보기</button></div>
+
+  <h2>평소 마음가짐 7가지</h2>
+  <div class="card">
+    <div class="tip"><span class="ic" style="background:var(--a1)">1</span><div><b>길게 보고, 매일 조금</b><p>기술사는 보통 1~2년 레이스입니다. 하루 몰아서 8시간보다 매일 2시간이 오래 갑니다.</p></div></div>
+    <div class="tip"><span class="ic" style="background:var(--a2)">2</span><div><b>완벽한 서브노트보다 써 본 답안</b><p>정리만 하다 끝나는 게 가장 흔한 실패입니다. 70% 정리됐으면 바로 손으로 써 보세요.</p></div></div>
+    <div class="tip"><span class="ic" style="background:var(--a3)">3</span><div><b>내 업무가 최고의 교재</b><p>논술 결론의 '견해'는 경험에서 나옵니다. 회사에서 겪은 일을 주제와 연결해 메모해 두세요.</p></div></div>
+    <div class="tip"><span class="ic" style="background:var(--a7)">4</span><div><b>떨어져도 데이터가 남는다</b><p>한 번에 붙는 사람은 드뭅니다. 시험 직후 기억나는 문제와 내 답안 구성을 적어 두면 다음 회차의 무기가 됩니다.</p></div></div>
+    <div class="tip"><span class="ic" style="background:var(--a5)">5</span><div><b>비교하지 말고 기록하기</b><p>남의 진도 대신 이 앱의 체크 수를 보세요. 어제보다 한 칸이면 충분합니다.</p></div></div>
+    <div class="tip"><span class="ic" style="background:var(--a6)">6</span><div><b>체력도 실력</b><p>하루 400분을 손으로 씁니다. 손목·어깨 스트레칭과 잠은 공부 계획에 넣어야 하는 항목입니다.</p></div></div>
+    <div class="tip"><span class="ic" style="background:var(--a4)">7</span><div><b>함께 가면 덜 지친다</b><p>스터디나 동료 1명과 주 1회 답안을 바꿔 보면 시야가 넓어지고 꾸준함이 생깁니다.</p></div></div>
+  </div>
+
+  <h2>합격 수기에서 자주 나오는 이야기</h2>
+  <div class="card">
+    <ol class="steps">
+      <li><span><b>기출부터 거꾸로</b> — 교재 처음부터가 아니라 최근 기출 주제부터 정리했다는 이야기가 많습니다.</span></li>
+      <li><span><b>토픽은 300~500개</b> — 단답 정의를 1페이지로 바로 쓸 수 있는 토픽 수가 합격선이라는 경험담이 흔합니다.</span></li>
+      <li><span><b>매주 실전 답안</b> — 시간 재고 손으로 쓴 답안 양이 점수를 바꿨다는 말이 공통입니다.</span></li>
+      <li><span><b>그림과 표가 점수</b> — 같은 내용도 구성도·비교표가 있으면 읽히는 답안이 됩니다.</span></li>
+      <li><span><b>최신 이슈는 따로</b> — 시험 1~2개월 전 정부 발표·법 개정·신기술을 따로 정리했다고 합니다.</span></li>
+      <li><span><b>면접은 내 경험으로</b> — 면접에서는 실무 사례를 기술사 관점으로 설명하는 연습이 중요했다는 후기가 많습니다.</span></li>
+    </ol>
+    <p class="sub" style="margin:8px 0 0">여러 공개 후기에서 반복되는 내용을 요약한 것입니다. 실제 수기는 아래 링크에서 직접 읽어 보세요.</p>
+  </div>
+
+  <h2>기출·자료 분석하는 법</h2>
+  <div class="card">
+    <ol class="steps">
+      <li>최근 회차 문제를 <b>카드·기출 탭</b>에서 영역별로 훑고, 두 번 이상 나온 주제를 표시합니다.</li>
+      <li>주제마다 <b>정의 → 구성도 → 비교표 → 사례 → 견해</b> 5칸으로 1페이지 서브노트를 만듭니다.</li>
+      <li>공식 가이드라인(KISA·NIA·법령)에서 <b>근거 문장 1~2줄</b>을 찾아 서브노트에 출처와 함께 붙입니다.</li>
+      <li>같은 주제의 문제를 회차별로 비교해 <b>출제자가 묻는 관점</b>(개념·절차·비교·도입 방안)을 적어 둡니다.</li>
+      <li>한 달에 한 번 <b>"다시 볼 것" 카드</b>만 모아 복습하고, 빈 칸을 메웁니다.</li>
+    </ol>
+  </div>
+
+  <h2>지칠 때 처방</h2>
+  <div class="card">
+    <div class="tip"><span class="ic" style="background:var(--sun);color:var(--ink)">!</span><div><b>공부가 손에 안 잡힐 때</b><p>카드 3장만 넘기고 끝내세요. 아주 작은 성공이 다음 날을 이어 줍니다.</p></div></div>
+    <div class="tip"><span class="ic" style="background:var(--pink)">♡</span><div><b>시험에 떨어졌을 때</b><p>일주일은 쉬고, 그다음 주에 그 회차 문제로 답안 1개만 다시 써 보세요.</p></div></div>
+    <div class="tip"><span class="ic" style="background:var(--done)">+</span><div><b>시간이 없을 때</b><p>출퇴근 시간에 이 앱의 카드 탭만 보세요. 하루 10분이 한 달이면 5시간입니다.</p></div></div>
+  </div>
+
+  <h2>수기·자료 찾아보기</h2>
+  <div class="list go-list">
+    <a href="https://search.naver.com/search.naver?ssc=tab.blog.all&amp;query=%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%88%A0%EC%82%AC+%ED%95%A9%EA%B2%A9%EC%88%98%EA%B8%B0" target="_blank" rel="noopener noreferrer"><span>네이버 블로그 합격 수기<small>"정보관리기술사 합격수기" 최신 글</small></span><span class="arr">›</span></a>
+    <a href="https://search.naver.com/search.naver?ssc=tab.cafe.all&amp;query=%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%88%A0%EC%82%AC+%ED%95%A9%EA%B2%A9" target="_blank" rel="noopener noreferrer"><span>네이버 카페 글<small>스터디·수험생 카페 후기</small></span><span class="arr">›</span></a>
+    <a href="https://www.youtube.com/results?search_query=%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%88%A0%EC%82%AC+%ED%95%A9%EA%B2%A9" target="_blank" rel="noopener noreferrer"><span>유튜브 합격 인터뷰·공부법<small>출퇴근길에 듣기 좋은 영상</small></span><span class="arr">›</span></a>
+    <a href="https://www.itwiki.kr/w/%EC%A0%95%EB%B3%B4%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%88%A0%EC%82%AC" target="_blank" rel="noopener noreferrer"><span>IT위키 정보관리기술사<small>회차별 기출과 용어 문서 연결</small></span><span class="arr">›</span></a>
+    <a href="https://www.itwiki.kr/w/%EB%B6%84%EB%A5%98:%EA%B8%B0%EC%88%A0%EC%82%AC_%EA%B8%B0%EC%B6%9C" target="_blank" rel="noopener noreferrer"><span>IT위키 기술사 기출 모음<small>회차별 문제 페이지 목록</small></span><span class="arr">›</span></a>
+    <a href="https://www.q-net.or.kr" target="_blank" rel="noopener noreferrer"><span>Q-net 공식<small>시험 일정·원서 접수·기출 원본</small></span><span class="arr">›</span></a>
+  </div>
+  <p class="sub" style="margin-top:10px">검색 링크라 항상 최신 글이 나옵니다. 유료 강의 광고 글도 섞여 있으니 실제 응시 회차와 공부 기간이 적힌 글 위주로 보세요.</p>
 </section>
 
 <!-- 가이드 -->
@@ -255,6 +324,7 @@ nav.tab button:focus-visible{outline:2px solid var(--accent);outline-offset:-4px
   <button role="tab" data-v="home" aria-selected="true"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>홈</button>
   <button role="tab" data-v="card" aria-selected="false"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="15" height="13" rx="2"/><path d="M7 3h12a2 2 0 012 2v10"/><path d="M7 11h7M7 14h5"/></svg>카드</button>
   <button role="tab" data-v="bank" aria-selected="false"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>기출</button>
+  <button role="tab" data-v="tip" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.2-9A5 5 0 0112 6a5 5 0 019.2 6c-2.2 4.6-9.2 9-9.2 9z"/></svg>마음</button>
   <button role="tab" data-v="guide" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"/><path d="M4 19V5"/></svg>가이드</button>
 </nav>
 
@@ -482,8 +552,11 @@ const ac=a=>Q.filter(q=>q[4]===a).length,mx=Math.max(...[1,2,3,4,5,6,7].map(ac))
 $('#areaBars').innerHTML=[1,2,3,4,5,6,7].map(a=>`<div class="bar"><span>${AREA[a]}</span><span class="tr"><i style="width:${ac(a)/mx*100}%;background:var(--a${a})"></i></span><span class="v">${ac(a)}</span></div>`).join('');
 $('#scopeList').innerHTML=[1,2,3,4,5,6,7].map(a=>`<li><b>${AFULL[a]}</b><br><span class="sub">${SCOPE[a]}</span></li>`).join('');
 
+const QUOTES=["오늘 쓴 한 줄이 시험장의 한 페이지가 된다.","완벽보다 완주. 오늘 카드 3장이면 충분해요.","어제의 나보다 한 칸 앞이면 이긴 거예요.","모르는 걸 찾은 날이 제일 많이 배운 날이에요.","내 업무 경험이 가장 강력한 답안 재료예요.","꾸준함은 재능을 이깁니다. 오늘도 출석!","지금 쓰는 서브노트가 미래의 자신감이에요.","쉬는 것도 계획입니다. 잘 자고 내일 또 해요."];
+let qi=Math.floor(Date.now()/86400000)%QUOTES.length;const showQ=()=>{$('#quote').textContent='“'+QUOTES[qi]+'”'};showQ();
+$('#nextQuote').addEventListener('click',()=>{qi=(qi+1)%QUOTES.length;showQ();});
 renderBank();
-const v0=st.get('itpe-view','home');show(['home','card','bank','guide'].includes(v0)?v0:'home');
+const v0=st.get('itpe-view','home');show(['home','card','bank','tip','guide'].includes(v0)?v0:'home');
 </script>
 </body>
 </html>
